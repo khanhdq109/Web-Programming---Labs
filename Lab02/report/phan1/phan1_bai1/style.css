@@ -1,0 +1,85 @@
+nav {
+    margin-bottom: 50px;
+}
+
+.top-products-heading {
+    margin-bottom: 20px; /* Adjust the bottom margin to create indentation */
+}
+
+.faded-gray-background {
+    background-color: rgba(212, 212, 212, 0.5); 
+}
+
+.book-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+}
+
+.brand-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff4500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.category-link,
+.top-products-link {
+    text-decoration: none; /* Remove underline */
+}
+
+.category-link:hover,
+.top-products-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    background-color: #ccc;
+}
+
+aside h2 {
+    font-size: 1em;
+    background-color: #EBEBEB;
+    text-align: center;
+    padding: 8px 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside ul a:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}

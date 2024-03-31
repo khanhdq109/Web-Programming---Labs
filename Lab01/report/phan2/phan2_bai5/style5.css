@@ -1,0 +1,106 @@
+html, body {height: 100%}
+
+body {
+	padding: 0;
+	margin: 0px 23%;
+	background: url('refs/images03/bg-body.png');
+	color: #000000;
+    font-family: arial, sans-serif;
+}
+
+#outer {
+    width: 800px;
+    color: black;
+    background: black;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    color: black;
+    background: rgb(102, 95, 95);
+    font-size: 35px;
+    font-weight: bold;
+    margin: auto;
+    align-items: center;
+}
+
+#menu {
+    height: 50px;
+    width: 100%;
+    color: white;
+    background: blue;
+}
+
+#content #col1 {
+    height: 600px;
+    width: 250px;
+    color: black;
+    background: white;
+    float: left;
+}
+
+#r1c1 {
+    height: 150px;
+    width: 100%;
+    color: black;
+    background: rgb(223, 241, 23);
+    float: left;
+}
+
+#r2c1 {
+    height: 150px;
+    width: 100%;
+    color: black;
+    background: rgb(102, 95, 95);
+    float: left;
+}
+
+#content #col2 {
+    height: 600px;
+    width: 550px;
+    color: black;
+    background: rgb(109, 109, 182);
+    float: left;
+}
+
+#r1c2 {
+    height: 472px;
+    width: 100%;
+    color: black;
+    background: white;
+    float: left;
+}
+
+#r2c2 #ele1 {
+    height: 128px;
+    width: 50%;
+    color: black;
+    background: green;
+    float: left;
+}
+
+#r2c2 #ele2 {
+    height: 128px;
+    width: 50%;
+    color: black;
+    background: red;
+    float: left;
+}
+
+#footer {
+    clear: both;
+    font-size: 35px;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    color: black;
+    background: blue;
+    margin: auto;
+    align-items: center;
+}
+
+.link{
+    font-size: 22px;
+    color: white;
+}

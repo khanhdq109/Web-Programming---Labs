@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Shopoo</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <span class="brand-text">Shopoo</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Follow us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="row">
+                <aside class="col-md-2">
+                    <h2>Category</h2>
+                    <ul>
+                        <li><a href="#" class="category-link">Fiction</a></li>
+                        <li><a href="#" class="category-link">Non-fiction</a></li>
+                        <li><a href="#" class="category-link">Mystery & Thriller</a></li>
+                        <li><a href="#" class="category-link">Romance</a></li>
+                        <li><a href="#" class="category-link">Young Adult</a></li>
+                    </ul>
+                    <h2>Top Products</h2>
+                    <ul>
+                        <li><a href="#" class="top-products-link">Tìm Ý Qua Mặt Cắt</a></li>
+                        <li><a href="#" class="top-products-link">Xứ Cát</a></li>
+                        <li><a href="#" class="top-products-link">How Psychology Works</a></li>
+                        <li><a href="#" class="top-products-link">MBA Bằng Hình</a></li>
+                        <li><a href="#" class="top-products-link">The Holy Bible</a></li>
+                    </ul>
+                </aside>
+                <div class="col-md-8">
+                    <div class="row">
+                        <h4 class="top-products-heading">Top Products</h4>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/img01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="book-name">Tìm Ý Qua Mặt Cắt</p>
+                                    <p class="card-text">Price: 10<span>&#36;</span></p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/img02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="book-name">Xứ Cát</p>
+                                    <p class="card-text">Price: 10<span>&#36;</span></p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/img03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="book-name">How Psychology Works</p>
+                                    <p class="card-text">Price: 10<span>&#36;</span></p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/img04.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="book-name">MBA Bằng Hình</p>
+                                    <p class="card-text">Price: 10<span>&#36;</span></p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/img05.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="book-name">The Holy Bible</p>
+                                    <p class="card-text">Price: 10<span>&#36;</span></p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="images/img06.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="book-name">Bản Vẽ Kiến Trúc</p>
+                                    <p class="card-text">Price: 10<span>&#36;</span></p>
+                                    <button type="button" class="btn btn-danger">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item"><a class="page-link" href="#">prev</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">next</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 faded-gray-background d-flex justify-content-center align-items-center">
+                    Advertisements
+                </div>
+            </div>
+            <footer class="bg-dark text-light text-center p-3 mt-5">
+                <p>Footer information...</p>
+                <p><a href="#">Link 1</a> | <a href="#">Link 2</a> | <a href="#">Link 3</a></p>
+            </footer>
+        </div>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

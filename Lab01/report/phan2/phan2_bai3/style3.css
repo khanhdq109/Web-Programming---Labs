@@ -1,0 +1,66 @@
+html, body {height: 100%}
+
+body {
+	padding: 0;
+	margin: 0px 25%;
+	background: rgb(150, 150, 136);
+	color: #000000;
+    text-indent: 10px;
+}
+
+#outer {
+    width: 750px;
+    color: black;
+    background: black;
+}
+
+#header {
+    height: 50px;
+    width: 100%;
+    color: black;
+    background: rgb(223, 213, 213);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#menu {
+    height: 30px;
+    width: 100%;
+    color: black;
+    background: rgb(239, 124, 124);
+}
+
+#content #col1 {
+    height: 500px;
+    width: 520px;
+    color: black;
+    background: rgb(145, 184, 86);
+    float: left;
+}
+
+#content #col2 {
+    height: 500px;
+    width: 230px;
+    color: black;
+    background: rgb(109, 109, 182);
+    float: left;
+}
+
+#footer {
+    clear: both;
+    height: 25px;
+    width: 100%;
+    color: black;
+    background: rgb(95, 113, 33);
+}
+
+h1 {
+    padding-top: 0px;
+}
+
+p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
