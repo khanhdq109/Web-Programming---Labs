@@ -1,0 +1,53 @@
+#table-container {
+    background-color: rgb(231, 234, 252);
+    min-height: 550px;
+    padding: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#table-container table {
+    border: 2px solid black;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #a4cbf5;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 15px;
+}
+
+.brand-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #eff2f7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.btn-search {
+    background-color: #f1edff;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
