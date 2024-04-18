@@ -47,7 +47,7 @@ function getAns() {
 document.addEventListener('keydown', function(event) {
     var key = event.key;
     // Check if the pressed key is a valid calculator input
-    if (/[\d\.+\-*/^]/.test(key)) {
+    if (/[\d\.+\-*/^()]/.test(key)) {
         event.preventDefault(); // Prevent typing in the input field
         appendToScreen(key); // Append the pressed key to the calculator screen
     } else if (key === 'Enter') {

@@ -1,0 +1,124 @@
+nav {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: #a4cbf5;
+    margin-bottom: 10px;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 15px;
+}
+
+.brand-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #eff2f7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.btn-search {
+    background-color: #f1edff;
+}
+
+.calculator {
+    background-color: rgb(71, 80, 117);
+    min-height: 200px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.calculator-buttons button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculator-buttons button:hover {
+    background-color: #f0f0f0;
+}
+
+.calculator-screen {
+    background-color: #9ea89f; 
+    padding: 10px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.simple-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.simple-table th,
+.simple-table td {
+    border: 2px solid #030202;
+    padding: 8px;
+    text-align: left;
+}
+
+.simple-table th {
+    background-color: #d5cdcd;
+}
+
+.simple-table tr {
+    background-color: #f9f9f9;
+}
+
+.simple-table tr:hover {
+    background-color: #e8e8e8;
+}
+
+.simple-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+input[type=text] {
+    width: calc(100% - 20px);
+    height: 100%;
+    background-color: #9ea89f; 
+    text-align: right;
+    border: 0px; 
+    font-size: 24px; 
+    color: inherit;
+    box-sizing: border-box; 
+    padding: 0; 
+    outline: none;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(233, 224, 224);
+}
+
+footer {
+    margin-top: 10px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
