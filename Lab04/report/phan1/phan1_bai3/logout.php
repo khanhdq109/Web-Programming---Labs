@@ -18,12 +18,6 @@
     // Destroy session
     session_destroy();
 
-    // Clear "remember_me"
-    if (isset($_COOKIE["remember_me"])) {
-        setcookie("remember_me", "", time() - 3600, "/");
-        setcookie("remember_password", "", time() - 3600, "/");
-    }
-
     // Redirect to login
     header("Location: login.php");
     exit()

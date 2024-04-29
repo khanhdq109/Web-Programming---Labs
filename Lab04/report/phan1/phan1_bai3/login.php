@@ -16,7 +16,10 @@
     }
 
     // Check if already logged in
-    if (isset($_SESSION["username"]) || isset($_SESSION["guest"])) {
+    if (!isset($_SESSION["remember"])) {
+        $_SESSION["remember"] = "off";
+    }
+    if (isset($_SESSION["username"]) && $_SESSION["remember"] == "on") {
         header("Location: info.php");
         exit();
     }
@@ -30,7 +33,7 @@
         if (validUser($username, $password)) {
             if (isset($_POST["remember_me"])) {
                 if ($_POST["remember_me"] == 'on') {
-                    setcookie('remember_me', $username, time() + (30 * 24 * 60 * 60), '/');
+                    $_SESSION["remember"] = "on";
                 }
             }
             
