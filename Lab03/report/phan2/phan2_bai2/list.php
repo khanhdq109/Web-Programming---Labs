@@ -80,7 +80,7 @@
                                 echo '<li><a href="detail.php?id=' . $row['id'] . '" class="top-products-link">' . $row['name'] . '</a>';
                             }
 
-                            mysqli_free_result( $result);
+                            mysqli_free_result($result);
                         ?>
                         
                     </ul>
